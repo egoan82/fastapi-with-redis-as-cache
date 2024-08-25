@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-with-redis-as-cache"
+version = "0.1.0"
+description = ""
+authors = ["Edward Gomez <egoan82@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlmodel = "^0.0.21"
+redis = "^5.0.8"
+python-dotenv = "^1.0.1"
+fastapi = {extras = ["standard"], version = "^0.112.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
